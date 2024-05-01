@@ -1,0 +1,98 @@
+body{
+    background: url('img/background-1.jpg');
+}
+.brand-logo{
+    font-family:'Bradley Hand ITC';
+    position: absolute;
+    height: auto;
+    left: 2px;
+    width: 30px;
+}
+.caption{
+    background: rgba(0,0,0,0.5);
+    padding: 2px;
+    margin-top: 200px;
+    margin-left: 0px;
+}
+.card-title{
+    background: rgba(0,0,0,0.5);
+    padding:1px;
+}
+.section-search input{
+    padding: 5px;
+    font-size: 18px;
+    width: 90%;
+    border: 3px solid black;
+}
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+.card-image:hover .overlay {
+    opacity: 1;
+  }
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background: rgba(0,0,0,0.5);
+}
+
+.section-follow{
+    font-family:'Bradley Hand ITC';
+    font-size: 20px;
+    padding:0px;
+    margin-top: 20px;
+}
+#images{
+    height: 370px;
+    width: 350px;
+}
+#contact-card-panel{
+    background-color: #FCFFE0;
+    font-family:'Bradley Hand ITC';
+
+}
+
+.section-search{
+    font-family:'Bradley Hand ITC';
+}
+#sliders{
+    margin-top: 20px;
+}
+footer{
+    font-family:'Bradley Hand ITC';
+}
+#nv-bar{
+    background-color: #294B29;
+}
+#mobile-nav{
+    font-family:'Bookman Old Style';
+}
+#menus{
+    font-family:'Bookman Old Style';
+}
+.card-reveal{
+    font-family: 'Trebuchet MS';
+    background: rgba(0,0,0,0.5);
+}
+.text{
+    font-family:'BankGothic Md BT';
+}
+#forms{
+    font-family:'BankGothic Md BT';
+}
+#collect {
+    font-family:'BankGothic Md BT';
+}

@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="x-icon" href="img/Logo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Fonts -->
+    <script src="https://kit.fontawesome.com/bbf2b66421.js" crossorigin="anonymous"></script>
+    <!-- Font cdnjs -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <title>Travelers</title>
+</head>
+<body id="home" class="scrollspy">
+        <!-- Navbar -->
+        <div class="navbar-fixed">
+            <nav id="nv-bar">
+                <div class="container">
+                    <div class="nav-wrapper">
+                        <a href="#" class="brand-logo">Travelers</a>
+                        <a href="#" data-target="mobile-nav" class="sidenav-trigger" ><i class="fa-solid fa-bars"></i></a>
+                        <ul class="right hide-on-med-and-down" id="menus">
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#Search">Search</a></li>
+                            <li><a href="#Popular">Popular Places</a></li>
+                            <li><a href="#Gallery">Gallery</a></li>
+                            <li><a href="#Contact">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <!-- Sidenav -->
+        <ul class="sidenav" id="mobile-nav">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#Search">Search</a></li>
+            <li><a href="#Popular">Popular Places</a></li>
+            <li><a href="#Gallery">Gallery</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
+        <!-- Sliders -->
+        <div class="container" id="sliders">
+            <section class="slider">
+                <ul class="slides" id="slider-slides">
+                    <li>
+                    <img src="img/Boracay.jpg" class="responsive-img">
+                    <div class="caption">
+                        <h3>Boracay</h3>
+                        <p class="light grey-text text-lighten-3 ">Boracay, one of the top Islands in the Philippines, is popular for its beaches and blessed with a long stretch of powdery white sand, crystal clear and azure waters, and a stunning sunset. Boracay is the most iconic island in the Philipines and has won multiple awards in previous years.</p>
+                    </div>
+                    </li>
+                    <li>
+                    <img src="img/bagiuo.jpg" class="responsive-img">
+                    <div class="caption">
+                        <h3>Bagiuo City</h3>
+                        <p class="light grey-text text-lighten-3">Baguio, on the Philippines’ Luzon island, is a mountain town of universities and resorts. Called the “City of Pines,” it’s particularly popular in summer due to unusually cooler weather. At its center is Burnham Park, with gardens and a lake.</p>
+                    </div>
+                    </li>
+                    <li>
+                    <img src="img/coron.jpg" class="responsive-img">
+                    <div class="caption">
+                        <h3>Coron</h3>
+                        <p class="light grey-text text-lighten-3">Coron, officially the Municipality of Coron, is a 1st class municipality in the province of Palawan, Philippines. According to the 2020 census, it has a population of 65,855 people.</p>
+                    </div>
+                    </li>
+                </ul>
+            </section>
+        </div>
+                
+    <!-- Search bar -->
+    <section id="Search" class="section section-search  white-text center scrollspy">
+        <div class="container">
+            <div class="row">
+                <div class="col s12">
+                    <h3>Search Destinations</h3>
+                    <div class="input-field">
+                        <input type="text" class="white black-text autocomplete" id="autocomplete-input" placeholder="bohol, palawan, etc...">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- icon boxes -->
+    <section class="section section-icon center">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 m6">
+                    <div class="card-panel">
+                        <i class="fa-solid fa-location-dot medium"></i>
+                        <h5>Pick Where</h5>
+                        <p>Choose your destination</p>
+                    </div>
+                </div>
+                <div class="col s12 m6">
+                    <div class="card-panel">
+                        <i class="fa-solid fa-location-dot medium"></i>
+                        <h5>Booking</h5>
+                        <p>Book and Reserve your tickets</p>
+                    </div>
+                </div>
+                
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Popular places -->
+    <section class="section section-popular scrollspy" id="Popular">
+        <div class="container">
+            <!-- First Row -->
+            <div class="row">
+                <h4 class="center">
+                    <span class="teal-text"> Popular</span> <span class="white-text">Places</span>
+                </h4>
+                <div class="col s12 m3">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/Boracay.jpg" alt="" class="responsive-img" id="images">
+                            <div class="overlay">
+                                <div class="text activator"> Boracay Island</div>
+                            </div> 
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title white center"><i class="fa-solid fa-xmark"></i></span>
+                            <p>Boracay Island, one of the top beaches in the Philippines and one of the best Visayas tourist spots, is blessed with a long stretch of powdery white sand beach (called White Beach), crystal clear and azure waters, and a stunning sunset. The island doesn't fall short on adventures and activities for people of all ages.</p>
+                          </div>
+                    </div>
+                </div>
+                <div class="col s12 m3">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/bohol.jpg" alt="" class="responsive-img" id="images">
+                            <div class="overlay">
+                                <div class="text activator"> Chocolate hills Bohol</div>
+                            </div> 
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title white center"><i class="fa-solid fa-xmark"></i></span>
+                            <p>The hills are located throughout the towns of Carmen, Batuan and Sagbayan and consist of about 1,776 mounds of the same general shape. During the dry season when precipitation in inadequate, the grass-covered hills turn chocolate brown, hence the name in reference to a branded confection.</p>
+                          </div>
+                    </div>
+                </div>
+                <div class="col s12 m3">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/bagiuo.jpg" alt="bagiuo" class="responsive-img" id="images">
+                                <div class="overlay">
+                                    <div class="text activator"> Baguio</div>
+                                </div> 
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title white center"><i class="fa-solid fa-xmark"></i></span>
+                            <p>Baguio City is a landlocked, highly urbanized city located in the island of Luzon and within the highlands of the Cordillera Ranges. As to its land cover: 9.81% is declared as watershed and protected forest; 1.41% as parks and recreation areas; 11.04% are open spaces; and the rest are settlement areas.</p>
+                          </div>
+                    </div>
+                </div>
+                <div class="col s12 m3">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/museum.jpg" alt="bagiuo" class="responsive-img" id="images">
+                                <div class="overlay">
+                                    <div class="text activator"> National Museum Antropology </div>
+                                </div> 
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title white center"><i class="fa-solid fa-xmark"></i></span>
+                            <p>The National Museum of Anthropology stages the Philippine ethnographic and terrestrial and underwater archaeological collections narrating the story of the Philippines from the past, as presented through artifacts as evidences of its pre-history.</p>
+                          </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Second Row -->
+            <div class="row">
+                <div class="col s12 m3">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/tagaytay.jpg" alt="" class="responsive-img" id="images">
+                            <div class="overlay">
+                                <div class="text activator"> Tagaytay</div>
+                            </div> 
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title white center"><i class="fa-solid fa-xmark"></i></span>
+                            <p>Tagaytay, city, southwestern Luzon, Philippines. It is located on Tagaytay Ridge at about 2,000 feet (600 metres) above sea level, on the northern flank of Mount Taal. The city is a weekend retreat, popular for its cool climate and outstanding view to the south of Taal Lake, with an active volcano on an island.</p>
+                          </div>
+                    </div>
+                </div>
+                <div class="col s12 m3">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/coron.jpg" alt="" class=" responsive-img" id="images">
+                            <div class="overlay">
+                                <div class="text  activator"> Coron</div>
+                            </div> 
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title white center"><i class="fa-solid fa-xmark"></i></span>
+                            <p>Coron Island is wedge-shaped limestone island, dominated by Permian Limestone of Jurassic origin, with few of its coastal areas being covered by mangrove forests. It is situated in the Calamianes group of Islands and belongs to the Municipality of Coron.</p>
+                          </div>
+                    </div>
+                </div>
+                <div class="col s12 m3">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/El-nido.jpg" alt="bagiuo" class="responsive-img" id="images">
+                                <div class="overlay">
+                                    <div class="text activator"> El Nido</div>
+                                </div> 
+                        </div>
+                        <div class="card-reveal" >
+                            <span class="card-title white center"><i class="fa-solid fa-xmark"></i></span>
+                            <p>El Nido is one of the most popular tropical paradises on Palawan Island. This coastal town is located on the northernmost tip of Palawan and home to an abundance of stunning white sandy beaches and incredible lagoons (e.g., Big Lagoon, Small Lagoon and Secret Lagoon) waiting for you to explore.</p>
+                          </div>
+                    </div>
+                </div>
+                <div class="col s12 m3">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/Banaue.jpg" alt="bagiuo" class=" responsive-img" id="images">
+                                <div class="overlay">
+                                    <div class="text activator">Banaue Rice Terraces</div>
+                                </div> 
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title white center"><i class="fa-solid fa-xmark"></i></span>
+                            <p>The Banaue Rice Terraces (Filipino: Hagdan-hagdang Palayan ng Banawe) are terraces that were carved into the mountains of Banaue, Ifugao, in the Philippines, by the ancestors of the Igorot people. The terraces are occasionally called the "Eighth Wonder of the World".</p>
+                          </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- third row -->
+            <div class="row">
+                <div class="col s12 m3">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/samal.jpg" alt="" class="responsive-img" id="images">
+                            <div class="overlay">
+                                <div class="text activator"> Samal Island</div>
+                            </div> 
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title white center"><i class="fa-solid fa-xmark"></i></span>
+                            <p>Samal Island is said to be one of the largest resort islands in the entire Philippines. It's one of those places where you won't ever get bored, thanks to the joyous lifestyle and the exquisite scenarios surrounding the island. The Hagimit Falls on the island is one of the hotspots for relaxation for many tourists. If you want to discover the fruit-eating bats, a must is a visit to the Monfort Bat Cave.</p>
+                          </div>
+                    </div>
+                </div>
+                <div class="col s12 m3">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/Batan.jpg" alt="" class=" responsive-img" id="images">
+                            <div class="overlay">
+                                <div class="text  activator"> Batan Island</div>
+                            </div> 
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title white center"><i class="fa-solid fa-xmark"></i></span>
+                            <p>One of the most interesting places to visit in the Philippines is Batan Island. It is a historical hotspot from WWII, and hence you can see several things like shipwrecks, ruined armouries, and others belonging to the Japanese. The island might be small, but the beach is quite wide, which is why you can spend a wonderful time sunbathing or simply walking on the white sand barefoot.</p>
+                          </div>
+                    </div>
+                </div>
+                <div class="col s12 m3">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/nalusan.jpg" alt="bagiuo" class="responsive-img" id="images">
+                                <div class="overlay">
+                                    <div class="text activator"> nalusuan Island </div>
+                                </div> 
+                        </div>
+                        <div class="card-reveal" >
+                            <span class="card-title white center"><i class="fa-solid fa-xmark"></i></span>
+                            <p>Nestled between Mactan Island and Bohol province, the picturesque Nalusuan Island was nothing but a sandbar during the ancient days. However, the land was reclaimed for creating the famous Nalusuan Island Resort that is now sprawled across the whole island.
+
+                                The Man-made resort island of Nalusuan is a stunning marine sanctuary, which attracts a huge influx of tourists for enjoying a number of underwater activities, such as snorkeling and scuba diving. Other water sports that adventure seekers can enjoy on Nalusuan Island include parasailing, kayaking, jet skiing, & banana boat riding.</p>
+                          </div>
+                    </div>
+                </div>
+                <div class="col s12 m3">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/fort.jpg" alt="bagiuo" class=" responsive-img" id="images">
+                                <div class="overlay">
+                                    <div class="text activator">Fort Santiago</div>
+                                </div> 
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title white center"><i class="fa-solid fa-xmark"></i></span>
+                            <p>Lying in the ancient Intramuros city, Fort Santiago dates back to 1593. Flaunting ancient architecture and brimming with history, this fortification has its name among the top historical places in Philippines. Nestled on the banks of Pasig River, this Citadel was originally established as a defense fortification by the Spanish governor and navigator Miguel López de Legazpi.
+
+                                The fort features beautiful stone walls that are adorned with numerous structures, including Rizal Shrine, dedicated to Jose Rizal, a freedom fighter and the national hero of the Philippines.</p>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery -->
+    <section id="Gallery" class="section section-galllery scrollspy">
+        <div class="container">
+            <h4 class="center">
+                <span class="teal-text">Photo</span><span class="white-text">Gallery</span>
+            </h4>
+            <!-- first row gallery -->
+            <div class="row">
+                <div class="col s12 m3">
+                    <img src="https://source.unsplash.com/1600x900/?beach" alt="" class="materialboxed responsive-img">
+                </div>
+                <div class="col s12 m3">
+                    <img src="https://source.unsplash.com/1600x900/?nature" alt="" class="materialboxed responsive-img">
+                </div>
+                <div class="col s12 m3">
+                    <img src="https://source.unsplash.com/1600x900/?mountain" alt="" class="materialboxed responsive-img">
+                </div>
+                <div class="col s12 m3">
+                    <img src="https://source.unsplash.com/1600x900/?forest" alt="" class="materialboxed responsive-img">
+                </div>
+            </div>
+
+            <!-- Second Row Gallery -->
+            <div class="row">
+                <div class="col s12 m3">
+                    <img src="https://source.unsplash.com/1600x900/?resort" alt="" class="materialboxed responsive-img">
+                </div>
+                <div class="col s12 m3">
+                    <img src="https://source.unsplash.com/1600x900/?sea" alt="" class="materialboxed responsive-img">
+                </div>
+                <div class="col s12 m3">
+                    <img src="https://source.unsplash.com/1600x900/?lake" alt="" class="materialboxed responsive-img">
+                </div>
+                <div class="col s12 m3">
+                    <img src="https://source.unsplash.com/1600x900/?landscapes" alt="" class="materialboxed responsive-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact -->
+    <section id="Contact" class="section section-contact scrollspy">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 m6">
+                    <div class="card-panel black-text center" id="contact-card-panel">
+                        <i class="fa-solid fa-envelope medium black-text"></i>
+                        <h5>Contact us for Booking</h5>
+                        <p>Here's our contact information</p>
+                    </div>
+                    <ul class="collection with-header center" id="collect">
+                        <li class="collection-header"><h4>Location</h4></li>
+                        <li class="collection-item">Travelers</li>
+                        <li class="collection-item">Cabuyao Laguna</li>
+                        
+                    </ul>
+                </div>
+                <div class="col s12 m6">
+                    <div class="card-panel" id="forms">
+                        <h5 class="center">Fill out this form</h5>
+                        <div class="input-field" id="form">
+                            <input type="text" placeholder="name">
+                            <input type="text" placeholder="email">
+                            <textarea  id="txtA" cols="30" rows="10" placeholder="message"></textarea>
+                            <button>submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+ <!-- Footer -->
+<div class="divider">
+</div>
+<section class="section section-follow white-text center">
+    <div class="container">
+        <div class="row">
+            <div class="col s12">
+                <h4>Travelers</h4>
+                <p>follow us on social media for exciting offers and discounts</p>
+                <a href="#" class="white-text">
+                    <i class="fab fa-facebook fa-4x"></i>
+                </a>
+                <a href="#" class="white-text">
+                    <i class="fab fa-twitter fa-4x"></i>
+                </a>
+                <a href="#" class="white-text">
+                    <i class="fab fa-instagram fa-4x"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+<footer class="white-text right-align">
+    <p class="flow-text">Travels and Tours &copy; 2024</p>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- JQuery CDN -->
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+<!-- Initialization -->
+<script>
+    $(document).ready(function(){
+        $('.sidenav').sidenav();
+        // $('.dropdown-trigger').dropdown();
+        $('.slider').slider({
+            duration: 200,                                         
+            setInterval:6000,
+            indicators:false,
+            height: 500,
+            Transition: 500                                                                         
+        });
+        $('.scrollspy').scrollspy();
+    
+    });
+    const mb = document.querySelectorAll('.materialboxed');
+    M.Materialbox.init(mb, {});
+    // autocomplete
+    const ac = document.querySelectorAll('.autocomplete');
+    M.Autocomplete.init(ac, {
+        data: {
+    
+                "bohol":null,
+                "boracay":null,
+                "el nido":null,
+                "bagiuo":null,
+                "tagaytay":null,
+                "coron":null,
+                "National Museum Antropology":null,
+                "nalusuan Island":null,
+                "Fort Santiago":null,
+                "Batan":null,
+                "Samal Island":null,
+                "Banaue Rice Terraces":null
+
+        }
+    });
+    let clear = document.querySelector('button');
+    let inputs = document.querySelectorAll('input');
+    let textArea = document.getElementById('txtA')
+
+    clear.addEventListener('click', () => {
+        inputs.forEach(input => input.value = '');
+        textArea.value = '';
+        alert("Your Message is successfully sent! ")
+        }); 
+
+</script>
+</body>
+</html>
